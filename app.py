@@ -547,7 +547,7 @@ html(
 # LOGO
 # ============================================================
 
-logo_path = "assets/logo.png"
+logo_path = "logo.png"
 
 if os.path.exists(logo_path):
     html(
