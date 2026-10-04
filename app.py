@@ -12,7 +12,7 @@ from streamlit_webrtc import webrtc_streamer
 # PAGE CONFIGURATION
 # ============================================================
 
-favicon_path = "assets/logo.png"
+favicon_path = "logo.png"
 
 if os.path.exists(favicon_path):
     page_icon = favicon_path
