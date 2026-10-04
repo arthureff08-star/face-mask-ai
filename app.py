@@ -619,7 +619,7 @@ html(
 # LOGO
 # ============================================================
 
-logo_path = "assets/logo.png"
+logo_path = "logo.png"
 
 if os.path.exists(logo_path):
     logo_b64 = base64.b64encode(open(logo_path, "rb").read()).decode()
